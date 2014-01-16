@@ -16,3 +16,8 @@ given his blessing to re-use the name for a new effort :-)
 
 Nothing but air. Some planning, some conversation; no code.
 
+## Setting Up a Dev Environment
+
+Dependencies:
+ * Haskell
+ * cabel-dev
