@@ -7,9 +7,9 @@ started by Chris Done at the end of 2010. It used
 AST and pretty printer in order to convert from Lisk to Haskell. Chris has
 given his blessing to re-use the name for a new effort :-)
 
-## Gaols
+## Goals
 
-100% compatibility/interop with Haskell ala Erlang's
+100% compatibility/interop with Haskell a la Erlang's
 [LFE](http://lfe.github.io/) and
 [Elixir](http://elixir-lang.org/).
 
