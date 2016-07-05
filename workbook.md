@@ -97,7 +97,12 @@ LamE [VarP x_0] (AppE
 ### Manually Creating AST
 
 
-( return (AppE (AppE (VarE (mkName "+")) (LitE (IntegerL 1))) (LitE (IntegerL 2))))
+```haskell
+$( return (AppE (AppE (VarE (mkName "+")) (LitE (IntegerL 1))) (LitE (IntegerL 2))) )
+```
+```
+3
+```
 
 ## Generating Syntax
 
