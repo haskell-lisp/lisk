@@ -9,8 +9,8 @@ given his blessing to re-use the name for a new effort :-)
 
 ## Goals
 
-100% compatibility/interop with Haskell (a la Erlang's
-[LFE](http://lfe.github.io/) and [Elixir](http://elixir-lang.org/)).
+100% native compatibility/interop with Haskell (a la Erlang's
+[LFE](http://lfe.github.io/)).
 
 ## Current Status
 
