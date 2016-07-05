@@ -20,4 +20,11 @@ Nothing but air. Some planning, some conversation; no code.
 
 Dependencies:
  * Haskell
- * cabel-dev
+ * Stack
+
+Run:
+
+```
+$ stack setup
+$ stack build
+```
