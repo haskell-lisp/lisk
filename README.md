@@ -23,8 +23,8 @@ Nothing but air. Some planning, some conversation, not much else.
 
 **Command line tools**: ``lisk``, ``liskc``, ``liski``
 
-**Stack config**: examples for compiling Lisk source as well as Lisk+Haskell
-mixed source
+**Stack config**: examples for compiling Lisk source projects as well as
+Lisk+Haskell mixed source projects
 
 **Compile-to-Haskell**:
 
@@ -32,6 +32,15 @@ mixed source
 1. Convert to Haskell AST
 1. Compile in-memory code
 1. Save as Haskell object files
+
+**Interpreter**:
+
+1. Read input
+1. Parse Lisk strings
+1. Convert to Haskell AST
+1. Compile in-memory code
+1. Evaluate code
+1. Print results
 
 
 ## Setting Up a Dev Environment
