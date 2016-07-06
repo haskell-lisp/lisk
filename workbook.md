@@ -98,7 +98,8 @@ LamE [VarP x_0] (AppE
 
 
 ```haskell
-$( return (AppE (AppE (VarE (mkName "+")) (LitE (IntegerL 1))) (LitE (IntegerL 2))) )
+Prelude Language.Haskell.TH> $( return
+  (AppE (AppE (VarE (mkName "+")) (LitE (IntegerL 1))) (LitE (IntegerL 2))) )
 ```
 ```
 3
