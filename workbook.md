@@ -110,25 +110,27 @@ Prelude Language.Haskell.TH> $( return
 Using ``Language.Haskell.Exts.Build``:
 
 ```haskell
-*Main Lib> :m + Language.Haskell.Exts.Parser
+*Main Lib> :m + Language.Haskell.Exts.Build
 ```
 ```haskell
-Main Lib Language.Haskell.Exts.Parser Language.Haskell.Exts.Build> intE 1
+Main Lib Language.Haskell.Exts.Build> intE 1
 ```
 ```haskell
 Lit (Int 1)
 ```
 ```haskell
-*Main Lib Language.Haskell.Exts.Parser Language.Haskell.Exts.Build> sym "+"
+*Main Lib Language.Haskell.Exts.Build> sym "+"
 ```
 ```haskell
 Symbol "+"
 ```
 ```haskell
-*Main Lib Language.Haskell.Exts.Parser Language.Haskell.Exts.Build> infixApp (intE 1) (op (sym "+")) (intE 2)
+*Main Lib Language.Haskell.Exts.Build> infixApp (intE 1) (op (sym "+")) (intE 2)
 ```
 ```haskell
-InfixApp (Lit (Int 1)) (QVarOp (UnQual (Symbol "+"))) (Lit (Int 2))
+InfixApp (Lit (Int 1)) 
+         (QVarOp (UnQual (Symbol "+"))) 
+         (Lit (Int 2))
 ```
 
 
