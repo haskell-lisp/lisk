@@ -96,6 +96,14 @@ LamE [VarP x_0] (AppE
 
 ### Manually Creating AST
 
+```haskell
+Prelude Language.Haskell.TH> AppE (AppE (VarE (mkName "+")) (LitE (IntegerL 1))) (LitE (IntegerL 2))
+```
+```haskell
+AppE (AppE (VarE +) (LitE (IntegerL 1))) (LitE (IntegerL 2))
+```
+
+Now evaluate that:
 
 ```haskell
 Prelude Language.Haskell.TH> $( return
